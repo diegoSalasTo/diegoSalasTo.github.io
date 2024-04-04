@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FuenteNueva;
+}
+@font-face {
+    font-family: FuenteNueva;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+.container {
+    background-color: rgb(20 20 20);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.containerSub {
+    background-color: rgb(31 31 31);
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.dataPerson {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+  
+}
+.dataPerson .Name{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.dataPerson .image{
+    width: 70px;
+    border-radius: 50px;
+}
+.dataPerson .Direction{
+    font-size: 9px;
+    font-weight: bold;
+    color: rgb(191 229 65);
+    margin-bottom: 10px;
+}
+.dataPerson .Estudios{
+    font-size: 12px;
+    color:white;
+    font-weight: 100;
+ 
+}
+.infoButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+.infoButtons .buttons{
+    background-color: rgb(51 51 51);
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: rgb(191 229 65);
+}
+.buttons:hover{
+    background-color: rgb(191 229 65);
+    color: black ;
+}
+
