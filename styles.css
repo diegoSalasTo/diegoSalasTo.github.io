@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: FuenteNueva;
-    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    src: url('./Inter-VariableFont_slnt\,wght.ttf') format('truetype');
 }
 .container {
     background-color: rgb(20 20 20);
